@@ -8,7 +8,7 @@ Building the Humber image for the Sense Hat:
     <https://www.sdcard.org/downloads/formatter_4/index.html>
 
 2.  Download and unzip 
-	http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-08-17/2017-08-16-raspbian-stretch.zip
+	http://downloads.raspberrypi.org/raspbian/images/raspbian-2018-06-29/2018-06-27-raspbian-stretch.zip
  
 3.  Use http://sourceforge.net/projects/win32diskimager/ or [Rufus](http://www.alanlay.com/blog/2014/6/8/raspberry-pi) to write 2017-08-16-raspbian-stretch.img on to the card.
 
