@@ -33,6 +33,6 @@ wget http://www.genlogic.com/download/glg-CE-3-6-linux-pi-arm6.tar.gz \
 -O /usr/local/glg/glg-3-6-linux-pi-arm6.tar.gz
 gunzip /usr/local/glg/glg-3-6-linux-pi-arm6.tar.gz 
 sudo tar zxvf glg-3-6-linux-pi-arm6.tar --directory /usr/local
-wget https://download.zerotier.com/zerotier-one-armhf.deb
-sudo dpkg --install zerotier-one-armhf.deb
+wget https://download.zerotier.com/debian/stretch/pool/main/z/zerotier-one/zerotier-one_1.2.12_armhf.deb
+sudo dpkg --install zerotier-one_1.2.12_armhf.deb
 echo finished script
