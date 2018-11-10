@@ -1,0 +1,33 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=SimpleBMEv00
+*Date=21:21:22
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;15.809;-4.27752;0;Bottom;Via4
+2;;;12.0201;-20.3725;-90;Top;TXT4
+3;;;15.9933;-14.4039;-90;Top;TXT3
+4;;;7.68087;-13.4215;0;Bottom;Via1
+5;;;8.22029;-17.8444;-90;Top;TXT5
+6;;;12.2984;-24.5212;0;Top;TXT5
+7;;;3.39449;-3.85451;0;Top;TXT2
+8;;;3.42307;-1.24694;0;Top;TXT2
+9;;;11.8209;-3.916;0;Top;TXT1
+10;;;5.59872;-17.7863;-90;Top;TXT5
+11;;;2.60097;-10.3735;0;Bottom;Via3
+12;;;11.8669;-6.39738;0;Top;TXT1
+13;;;11.8593;-9.06195;0;Top;TXT1
+14;;;2.79061;-17.74;-90;Top;TXT5
+15;;THT;7.68096;-5.54752;180;Bottom;J2
+16;;;4.88687;-6.81753;0;Bottom;Via2
+17;;;11.8759;-1.20661;0;Top;TXT1
+18;;THT;5.14096;-23.5815;-90;Bottom;J1
