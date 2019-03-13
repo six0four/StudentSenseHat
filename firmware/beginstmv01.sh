@@ -1,9 +1,9 @@
 #!/bin/bash
 echo 'start update, upgrade, installs (internet needed) script'
-#sudo apt-get update
-#export DISPLAY=
-#sudo apt-get upgrade -y
-#export DISPLAY=:0.0
+sudo apt-get update
+export DISPLAY=
+sudo apt-get upgrade -y
+export DISPLAY=:0.0
 time sudo apt-get install \
 vim vim-gtk \
 automake \
@@ -20,7 +20,7 @@ libgtk-3-dev \
 devscripts \
 xscreensaver -y
 git clone https://github.com/texane/stlink.git
-git archive --prefix=$(git describe)/ HEAD | bzip2 --stdout > ../libstlink_$(sed -En -e "s/.*\((.*)\).*/\1/" -e "1,1 p" debian/changelog).orig.tar.bz2
+sudo git archive --prefix=$(git describe)/ HEAD | bzip2 --stdout > ../libstlink_$(sed -En -e "s/.*\((.*)\).*/\1/" -e "1,1 p" debian/changelog).orig.tar.bz2
 debuild -uc -us
 cmake -DCMAKE_BUILD_TYPE=Debug ~/stlink/build
 make -C ~/stlink/build
