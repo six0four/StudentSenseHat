@@ -18,8 +18,8 @@ libgtk-3-dev \
 devscripts -y
 git clone https://github.com/texane/stlink.git
 mkdir stlink/build
-cmake -DCMAKE_BUILD_TYPE=Debug ~/stlink/build
-sudo make install -C ~/stlink/build
+cmake -DCMAKE_BUILD_TYPE=Debug ~/stlink/
+sudo make install -C ~/
 sudo ldconfig
 st-info --version
 st-info --probe
