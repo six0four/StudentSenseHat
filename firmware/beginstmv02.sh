@@ -16,6 +16,7 @@ sudo apt-get install \
 libusb-1.0 \
 libgtk-3-dev \
 devscripts -y
+sudo m-a prepare
 git clone https://github.com/texane/stlink.git
 mkdir stlink/build
 cmake -DCMAKE_BUILD_TYPE=Debug ~/stlink/
@@ -36,4 +37,3 @@ sudo mv gcc-arm-none-eabi-8-2018-q4-major /opt/gcc-arm
 export PATH="/opt/gcc-arm/bin:$PATH"
 echo 'export PATH="/opt/gcc-arm/bin:$PATH"' >> .profile
 make -C ~/stm32f103c8t6
-
