@@ -15,7 +15,8 @@ sudo apt --fix-broken install -y
 sudo apt-get install \
 libusb-1.0 \
 libgtk-3-dev \
-devscripts -y
+devscripts \
+hexedit -y
 sudo m-a prepare
 git clone https://github.com/texane/stlink.git
 mkdir stlink/build
