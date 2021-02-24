@@ -16,6 +16,7 @@ sudo apt-get install \
 libusb-1.0 \
 libgtk-3-dev \
 devscripts \
+minicom \
 hexedit -y
 sudo apt-get install \
 codeblocks \
